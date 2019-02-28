@@ -1,0 +1,33 @@
+.container {
+    margin: auto;
+}
+
+.intro {
+    margin-top: 50px;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+.description {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.profilePic {
+    margin-bottom: 20px;
+}
+
+.skills {
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.color {
+    color: #fa752c;
+}

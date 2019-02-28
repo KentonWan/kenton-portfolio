@@ -1,10 +1,12 @@
 .landing {
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 .backgroundimg {
     background-image: url("./Landing-Splash.jpg");
-    background-size: cover;
+    background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -22,4 +24,15 @@ margin: auto;
 .subtitle {
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.links {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    color: white;
+}
+
+.links:hover {
+    color: #fa752c;
+    text-decoration: none;
 }
