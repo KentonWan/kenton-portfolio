@@ -2,6 +2,8 @@
     margin: auto;
 }
 
+
+
 .intro {
     margin-top: 50px;
     font-size: 2em;
@@ -30,4 +32,13 @@
 
 .color {
     color: #fa752c;
+}
+
+.descriptionDiv {
+    padding-right: 0px;
+}
+
+.descriptionPic {
+    padding-right: 0px;
+    padding-top: 8px;
 }
