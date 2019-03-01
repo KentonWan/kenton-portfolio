@@ -4,6 +4,7 @@ import './aboutme.css';
 
 const aboutme = () => (
     <div className="main-container">
+        
         <div className="container">
             <p className="intro">Hi! My name is <span className="color">Kenton Wan</span>.</p> 
             <img src={require("./Kenton_Profile_Pic.png")} height="200" alt="picture of Kenton" className="profilePic"/>
