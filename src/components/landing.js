@@ -8,7 +8,7 @@ import Portfolio from "./portfolio.js";
 
 const landing = () => (
     <div>
-        <div className="row backgroundimg" id="home">
+        <div className="row backgroundimgHome" id="home">
             <div className="container">
                 <h1 className="name">Kenton Wan</h1>
                 <h4 className="subtitle">Full Stack Web Developer</h4>
@@ -20,7 +20,7 @@ const landing = () => (
 
             </div>
         </div>
-        <div id="about">
+        <div className="row backgroundimgAbout" id="about">
             <AboutMe />
             <div>
                     <a href="#home" id="Home" className="links">Home</a>
