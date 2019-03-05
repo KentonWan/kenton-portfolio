@@ -69,6 +69,21 @@ const landing = () => (
             </div>
           </div>
 
+          <footer className="page-footer font-small fixed-bottom footer">
+            <div className="container-fluid text-center text-md-left">
+                <div className="row">
+                    <div className="col-sm-1 linkLI">
+                        <a href="www.linkedin.com/in/kentonwan" target="_blank">
+                            <img src={require("./In-White-34px-TM.png")} height="25px" alt="linkedIn link" className="link"/>    
+                        </a>
+                        <a href="https://github.com/KentonWan" target="_blank">
+                            <img src={require("./GitHub-Mark-Light-32px.png")} height="25px" alt="github link" className="link"/>  
+                        </a>
+                    </div>
+                </div>
+            </div>
+          </footer>
+
         </div>
 
 

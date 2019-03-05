@@ -82,3 +82,16 @@ h5 {
     background-repeat: no-repeat;
 
 }
+
+.footer {
+    height: 30px;
+}
+
+.link {
+    padding: 3px;
+    opacity: 0.5;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
