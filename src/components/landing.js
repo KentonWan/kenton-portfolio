@@ -63,6 +63,7 @@ const landing = () => (
             <div className="mask rgba-black-light align-items-center">
               <div className="container">
                 <div className="row">
+                <Portfolio />
                 </div>
               </div>
             </div>

@@ -18,7 +18,34 @@ const aboutme = () => (
            
         </div>
         <div className="container skills">
-        <p className="skills"><span className="color">What I Do:</span>  JavaScript, HTML5, CSS3, React, NodeJS, APIs, Express, SQL, PostGreSQL, Git, Firebase, TDD, Jasmine </p>
+
+            <div className="row skillsRow">
+                <div className="col-md-2 offset-md-3 skillsTitle">
+                    <p className="color">Front-End:</p>
+                    <p>JavaScript</p>
+                    <p>HTML5</p>
+                    <p>CSS3</p>
+                    <p>Bootstrap</p>
+                    <p>ReactJS</p>
+                </div>
+                <div className="col-md-2 skillsTitle">
+                    <p className="color">Back-End:</p>
+                    <p>NodeJS</p>
+                    <p>Express</p>
+                    <p>APIs</p>
+                    <p>SQL</p>
+                    <p>PostgreSQL</p>
+                    <p>Firebase</p>
+                </div>
+                <div className="col-md-2 skillsTitle">
+                    <p className="color">Other:</p>
+                    <p>TDD</p>
+                    <p>Jasmine</p>
+                    <p>Git</p>
+                    <p>Heroku</p>
+                </div>
+            
+            </div>
         </div>
     </div>
 );
